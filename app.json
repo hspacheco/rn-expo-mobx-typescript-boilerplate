@@ -1,0 +1,41 @@
+{
+	"expo": {
+		"name": "expo-nativebase-typescript-boilerplate",
+		"description": "Boilerplate Expo+TypeScript+NativeBase",
+		"slug": "expo-nativebase-typescript",
+		"privacy": "public",
+		"sdkVersion": "28.0.0",
+		"platforms": [
+			"ios",
+			"android"
+		],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": [
+			"**/*"
+		],
+		"ios": {
+			"bundleIdentifier": "com.hspacheco.rnboilerplate",
+			"supportsTablet": true
+		},
+		"android": {
+			"package": "com.hspacheco.rnboilerplate"
+		},
+		"packagerOpts": {
+			"sourceExts": [
+				"ts",
+				"tsx"
+			],
+			"transformer": "node_modules/react-native-typescript-transformer/index.js"
+		}
+	}
+}

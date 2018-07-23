@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "jsx": "react-native",
+        "strict": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+    }
+}

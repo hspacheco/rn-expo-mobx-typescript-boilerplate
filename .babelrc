@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "react-native"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-decorators-legacy",
+        "transform-react-jsx-source"
+      ]
+    }
+  }
+}
